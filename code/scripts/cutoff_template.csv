@@ -1,0 +1,15 @@
+method,dataset,task,cutoff
+pacmap,MNIST,pca,0.01
+pacmap,MNIST,axis,0.01
+pacmap,FMNIST,pca,0.01
+pacmap,FMNIST,axis,0.01
+pacmap,USPS,pca,0.01
+pacmap,COIL20,pca,0.01
+umap,MNIST,pca,0.01
+umap,MNIST,axis,0.01
+infonce,MNIST,pca,0.01
+infonce,MNIST,axis,0.01
+negtsne,MNIST,pca,0.01
+negtsne,MNIST,axis,0.01
+ncvis,MNIST,pca,0.01
+ncvis,MNIST,axis,0.01

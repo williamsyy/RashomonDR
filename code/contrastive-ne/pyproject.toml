@@ -1,0 +1,41 @@
+[project]
+name = "contrastive-ne"
+description = "Contrastive Neighbor Embeddings"
+authors = [
+    {name = "Sebastian Damrich", email = "sebastian.damrich@uni-tuebingen.de"},
+    {name = "Niklas Böhm", email = "jan-niklas.boehm@uni-tuebingen.de"}
+
+]
+dynamic = ["version"]
+readme = "readme.md"
+dependencies = [
+    "numpy>=1.17",
+    "scikit-learn>=0.23.2",
+    "annoy",
+    "matplotlib",
+    "torchvision",
+    "torch>=1.10",
+    "scipy",
+    "pykeops"
+]
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[tool.setuptools.dynamic]
+version = {file = "VERSION"}
+
+[project.urls]
+homepage = "https://github.com/berenslab/contrastive-ne"
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,6 @@
+numpy
+numba
+scikit-learn
+annoy
+pytorch==2.0
+pytorch-lightning==2.0.0
