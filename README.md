@@ -68,7 +68,7 @@ pip install numpy scikit-learn matplotlib pandas annoy scipy numba
 
 ## Datasets
 
-All datasets used in the paper are described in Appendix D. Due to size constraints, data files are not included in this repository. Please refer to the cited works for dataset downloads:
+All datasets used in the paper are described in Appendix D. Due to size constraints, data files are not included in this repository. Please refer to the cited works for dataset downloads or requeseted based on need:
 
 - **MNIST** ([LeCun et al., 2010](http://yann.lecun.com/exdb/mnist/))
 - **Fashion-MNIST** ([Xiao et al., 2017](https://github.com/zalandoresearch/fashion-mnist))
@@ -143,10 +143,6 @@ python experiment_2_comparison.py --dataset MNIST --task_type pca
 - `infonce` -- Parametric Info-NC-t-SNE
 - `negtsne` -- Parametric Neg-t-SNE
 - `ncvis` -- Parametric NCVis
-
-### Supported datasets
-
-`MNIST`, `FMNIST`, `USPS`, `20NG`, `COIL20`, `AirPlane`, `Mammoth`, `kang`, `stuart`, `human_cortex`, `neurips2021`, `seurat`
 
 ## Modified Packages
 
