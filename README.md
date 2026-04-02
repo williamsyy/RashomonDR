@@ -1,6 +1,6 @@
 # The Rashomon Effect for Visualizing High-Dimensional Data
 
-This repository contains the implementation code for the paper: **The Rashomon Effect for Visualizing High-Dimensional Data** [[arXiv(Release Soon)]](TODO)
+This repository contains the implementation code for the paper: **The Rashomon Effect for Visualizing High-Dimensional Data** [[arXiv]](https://arxiv.org/abs/2604.00485)
 
 ## Overview
 
